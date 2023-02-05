@@ -1,11 +1,10 @@
 import React from "react";
-import "./BottomSection.css";
 
 const BottomSection = () => {
   return (
-    <section className="p-4 grid grid-cols-[3fr,2fr] gap-6 overflow-scroll">
+    <section className="p-4 grid grid-cols-[3fr,2fr] gap-6">
       {/* left section start */}
-      <div className="bg-yellow-100 grid grid-cols-4 p-4">
+      <div className="bg-yellow-100 grid gap-4 lg:grid-cols-2  xl:grid-cols-4 p-4">
         <div>
           {/* fine */}
           <div className="flex justify-between my-1">
@@ -15,7 +14,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="fine"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
 
@@ -27,7 +26,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="tgws"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
 
@@ -39,7 +38,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="mrp"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
           {/* tgws */}
@@ -50,7 +49,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="design"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
         </div>
@@ -65,7 +64,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="diaVal"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
 
@@ -77,7 +76,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="tlws"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
 
@@ -89,7 +88,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="pktwt"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
           {/* tgws */}
@@ -100,7 +99,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="clarity"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
         </div>
@@ -115,7 +114,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="tgwg"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
 
@@ -127,7 +126,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="tnws"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
 
@@ -139,7 +138,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="colour"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
         </div>
@@ -154,7 +153,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="no"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
 
@@ -166,7 +165,7 @@ const BottomSection = () => {
             <input
               type="text"
               id="rows"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
         </div>
@@ -183,22 +182,22 @@ const BottomSection = () => {
             <input
               type="text"
               id="total1"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="total2"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="total3"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="total4"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
         </div>
@@ -209,22 +208,22 @@ const BottomSection = () => {
             <input
               type="text"
               id="receive1"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="receive2"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="receive3"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="receive4"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
         </div>
@@ -235,22 +234,22 @@ const BottomSection = () => {
             <input
               type="text"
               id="difference1"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="difference2"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="difference3"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
             <input
               type="text"
               id="difference4"
-              className="p-1 bg-blue-200 border border-gray-400 outline-none"
+              className="p-1 bg-blue-200 border border-gray-400 outline-none w-auto lg:w-[100px] "
             />
           </div>
         </div>
