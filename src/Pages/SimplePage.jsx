@@ -1,9 +1,10 @@
 import React from "react";
+import "./SimplePage.css";
 
 const SimplePage = () => {
   return (
     <section className="bg-[#FEC4C3] h-[100vh] overflow-scroll">
-      <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-[2fr,4fr] xl:grid-cols-2">
         {/*top left side section */}
         <div className="border border-gray-600 flex justify-center items-center">
           <input
@@ -15,8 +16,8 @@ const SimplePage = () => {
 
         {/* top right side section */}
         <div className="border border-gray-600">
-          <div className="p-3">
-            {/* top right left section */}
+          <div className="p-3 grid lg:grid-cols-[3fr,2fr] xl:grid-cols-2 gap-4">
+            {/* top right left section start*/}
             <div>
               {/* series input  */}
               <div className="my-1">
@@ -65,9 +66,38 @@ const SimplePage = () => {
                 <label htmlFor="finalVoucher">Final Voucher</label>
               </div>
             </div>
+            {/* top right left section end*/}
 
-            {/* top right - right section */}
-            <div></div>
+            {/* top right - right section  start*/}
+            <div>
+              {/* stk site section */}
+              <div>
+                <label htmlFor="stkSite" className="mr-3">
+                  Stk.site
+                </label>
+                <select
+                  name="stkSite"
+                  id="stkSite"
+                  className="classic p-1 w-[150px]"
+                >
+                  <option value="js">JS</option>
+                  <option value="react">React</option>
+                </select>
+              </div>
+
+              {/* narration input */}
+              <div className="my-1">
+                <label htmlFor="narration" className=" mr-1">
+                  Narration
+                </label>
+                <input
+                  type="text"
+                  id="narration"
+                  className="border border-gray-600 outline-none mx-2 w-[250px] p-1"
+                />
+              </div>
+            </div>
+            {/* top right - right section  end*/}
           </div>
         </div>
       </div>
