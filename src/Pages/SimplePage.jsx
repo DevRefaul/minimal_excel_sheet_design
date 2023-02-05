@@ -1,4 +1,5 @@
 import React from "react";
+import BottomSection from "../Components/BottomSection";
 import Table from "../Components/Table";
 import TopSection from "../Components/TopSection";
 import "./SimplePage.css";
@@ -12,6 +13,8 @@ const SimplePage = () => {
       <div>
         <Table />
       </div>
+
+      <BottomSection />
     </section>
   );
 };
