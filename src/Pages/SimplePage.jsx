@@ -6,7 +6,7 @@ import "./SimplePage.css";
 
 const SimplePage = () => {
   return (
-    <section className="bg-[#FEC4C3] h-[100vh] overflow-scroll">
+    <section className="bg-[#FEC4C3] h-[100vh] overflow-scroll py-10">
       <TopSection />
 
       {/* table component here */}

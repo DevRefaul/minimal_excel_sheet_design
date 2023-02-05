@@ -2,7 +2,7 @@ import React from "react";
 
 const BottomSection = () => {
   return (
-    <section className="p-4 grid grid-cols-[3fr,2fr] gap-6">
+    <section className="p-4 grid grid-cols-[3fr,2fr] gap-12">
       {/* left section start */}
       <div className="bg-yellow-100 grid gap-4 lg:grid-cols-2  xl:grid-cols-4 p-4">
         <div>
